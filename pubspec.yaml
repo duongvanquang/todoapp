@@ -1,0 +1,49 @@
+name: todoapp
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  easy_localization: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+  fonts:
+    - family: rubik
+      fonts:
+        - asset: assets/fonts/Rubik-BlackItalic.ttf
+        - asset: assets/fonts/Rubik-Bold.ttf
+        - asset: assets/fonts/Rubik-Black.ttf
+        - asset: assets/fonts/Rubik-BoldItalic.ttf
+        - asset: assets/fonts/Rubik-ExtraBold.ttf
+        - asset: assets/fonts/Rubik-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Rubik-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Rubik-Italic.ttf
+        - asset: assets/fonts/Rubik-Light.ttf
+        - asset: assets/fonts/Rubik-LightItalic.ttf
+        - asset: assets/fonts/Rubik-Medium.ttf
+        - asset: assets/fonts/Rubik-MediumItalic.ttf
+        - asset: assets/fonts/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik-SemiBold.ttf
+        - asset: assets/fonts/Rubik-SemiBoldItalic.ttf
+        - asset: assets/fonts/Rubik-VariableFont_wght.ttf
+    - family: osan
+      fonts:
+        - asset: assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
+
+
+      
+  

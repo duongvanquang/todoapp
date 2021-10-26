@@ -1,0 +1,38 @@
+{
+    "onboarding": {
+        "titleonboarding": "Reminders made simple",
+        "nameonbroading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque erat in blandit luctus.",
+        "buttononboarding": "Get Started"
+    },
+    "empty": {
+        "titleempty": "Hello Brenda!",
+        "nameempty": "Today you have no tasks",
+        "bodyempty": "No tasks",
+        "descriptionempty": "You have no task to do."
+    },
+    "task": {
+        "heardertitle": "Today Reminder",
+        "heardertitlecline": "Meeting with client",
+        "heardertime": "13.00 PM",
+        "nameproject": "Projects"
+    },
+    "homescreen": {
+        "titletoday": "Today",
+        "namego": "Go jogging with Christin",
+        "namemeet": "Meeting with client",
+        "namesend": "Send project file",
+        "nameemail": "Email client",
+        "titletomorrow": "Tomorrow",
+        "nameyoga": "Morning yoga"
+    },
+    "bottomNavigator": {
+        "homeButon": "Home",
+        "taskButon": "Task"
+    },
+    "addtask": {
+        "titleadd": "Add new task",
+        "namedate": "Choose date",
+        "timeaddtask": "Today, 19:00 — 21:00",
+        "nameaddtask": "Add Task"
+    }
+}
