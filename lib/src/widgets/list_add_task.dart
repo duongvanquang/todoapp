@@ -51,15 +51,12 @@ class _ListProjectState extends State<ListProject> {
                                 ? MaterialStateProperty.all(addItem.color)
                                 : null),
                         child: Row(children: [
-                          Visibility(
-                            visible: index != selectedIndex,
-                            child: Container(
-                              width: 10,
-                              height: 10,
-                              decoration: BoxDecoration(
-                                color: addItem.color,
-                                borderRadius: BorderRadius.circular(50),
-                              ),
+                          Container(
+                            width: 10,
+                            height: 10,
+                            decoration: BoxDecoration(
+                              color: addItem.color,
+                              borderRadius: BorderRadius.circular(50),
                             ),
                           ),
                           const SizedBox(width: 4),
