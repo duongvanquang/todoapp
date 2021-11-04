@@ -10,6 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   easy_localization: ^3.0.0
+  mocktail: ^0.1.4
+  flutter_local_notifications: ^9.0.2
+  rxdart: ^0.27.2
+  intl:
 
 dev_dependencies:
   flutter_test:

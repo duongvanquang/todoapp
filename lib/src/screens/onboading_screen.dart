@@ -27,7 +27,7 @@ class OnboadingScreen extends StatelessWidget {
                 height: 6,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 58, right: 58),
+                padding: const EdgeInsets.only(left: 55, right: 55),
                 child: Text(tr('onboarding.nameonbroading'),
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headline4!.copyWith(

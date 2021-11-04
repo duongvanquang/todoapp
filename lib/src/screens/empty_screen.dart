@@ -16,9 +16,9 @@ class EmptyScreen extends StatelessWidget {
               alignment: Alignment.center,
               decoration:
                   const BoxDecoration(gradient: GradientThemeTodo.gradientblue),
-              child: Padding(
-                padding: const EdgeInsets.only(
-                    top: 60, left: 18, right: 18, bottom: 19),
+              child: const Padding(
+                padding:
+                    EdgeInsets.only(top: 60, left: 18, right: 18, bottom: 19),
                 child: Hearderavata(
                   numberTask: '',
                 ),
@@ -51,10 +51,10 @@ class EmptyScreen extends StatelessWidget {
 }
 
 class Hearderavata extends StatelessWidget {
-  String numberTask = '';
-  Hearderavata({
+  final String? numberTask;
+  const Hearderavata({
     Key? key,
-    required this.numberTask,
+    this.numberTask,
   }) : super(key: key);
 
   @override
@@ -72,7 +72,7 @@ class Hearderavata extends StatelessWidget {
                     .copyWith(color: TodoColorsTheme.primaryWhite),
               ),
               Text(
-                  numberTask.isNotEmpty
+                  numberTask!.isNotEmpty
                       ? 'Today you have $numberTask tasks'
                       : tr('empty.nameempty'),
                   style: Theme.of(context).textTheme.headline5!.copyWith(

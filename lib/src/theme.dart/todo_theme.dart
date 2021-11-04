@@ -28,7 +28,6 @@ mixin TodoTheme {
           ),
           headline4: TextStyle(
             color: TodoColorsTheme.primaryBlack,
-            fontWeight: FontWeight.bold,
             fontSize: 17,
           ),
           headline5: TextStyle(
